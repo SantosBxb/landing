@@ -1,12 +1,12 @@
 import React from 'react';
 import { Grid } from '@mui/material';
 import { makeStyles } from '@mui/styles';
-import Carousel from './Carousel';
+// import Carousel from './Carousel';
 import PageCard from './PageCard';
 import image1 from '../public/1.png';
 
 
-const useStyles = makeStyles(({ spacing, breakpoints }) => ({
+const Styles = makeStyles(({ spacing, breakpoints }) => ({
   container: {
     minHeight: '100vh',
     display: 'flex',
@@ -75,7 +75,7 @@ const cardItems = [
 ];
 
 const cards = () => {
-  const classes = useStyles();
+  const classes = Styles();
 
   return (
     <>
